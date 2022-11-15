@@ -860,8 +860,8 @@ body{
         margin-top: 20px !important;
     }
     .slideBtnBooking{
-        width: 260px !important;
-        left: 10px !important;
+        width: 280px !important;
+        left: 5px !important;
         top:5px !important;
         display: inline-block;
         position: relative;
@@ -931,7 +931,7 @@ body{
     .sliderButton {
         margin-top: 25px !important;
         margin-bottom: 15px !important;
-        left: 19px !important
+        left: 10px !important
     }
     .formWrapper{
         width: 100%;
