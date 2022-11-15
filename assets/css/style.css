@@ -1,0 +1,1028 @@
+/* CSS created By Thread beet solutions
+Novenber 2022
+https://threadbitsolution.com/ */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-Bold.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-Italic.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-Light.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-LightItalic.ttf);
+  }
+  @font-face {
+    font-family: Muli;  
+    src: url(../fonts/Muli-Semi-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Muli; 
+    src: url(../fonts/Muli.ttf);
+  }
+  @font-face {
+    font-family: Satisfy; 
+    src: url(../fonts/Satisfy-Regular.ttf);
+  }
+  @font-face {
+    font-family: Arvo; 
+    src: url(../fonts/Arvo-Bold.ttf);
+  }
+  @font-face {
+    font-family: Arvo; 
+    src: url(../fonts/Arvo-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: Arvo; 
+    src: url(../fonts/Arvo-Italic.ttf);
+  }
+  @font-face {
+    font-family: Arvo; 
+    src: url(../fonts/Arvo-Regular.ttf);
+  }
+.topWrapper{
+    padding: 15px 0px;
+}
+.topAdress{
+    font-family: Muli; 
+    font-weight: 400; 
+    font-style: normal; 
+    color: rgb(39, 67, 120);
+    font-size: 18px;
+    text-align: center;
+    line-height: 23px;
+}
+.logoWrapper{
+    width: 220px;
+    margin: 0 auto;
+} 
+.apointmentBtn{
+    margin: 0 auto;
+    border: none; 
+    display: block;
+    border-style: none;
+    border-radius: 100px;
+    z-index: 8;
+    width: 250px;
+    height: 45px; 
+    background: rgba(224,153,0,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #ffffff; 
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: Muli;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.apointmentBtn:hover{
+    background: rgba(213,136,0,1);
+    box-shadow: none;
+    color: #ffffff;
+}
+.slideBtn,.slideBtnCall,.slideBtnBooking{ 
+    margin: 0 auto;
+    display: block;
+    border-style: none;
+    border-radius: 56px;
+    z-index: 6;
+    width: 315px;
+    height: 60px;
+    background: rgba(224,153,0,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Muli;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.slideBtn:hover,.slideBtnCall:hover,.slideBtnBooking:hover{
+    background: rgba(213,136,0,1);
+    box-shadow: none;
+    color: #ffffff;
+}
+.mainSlider{
+    background-image: url(../images/slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+}
+.slideOverlay{
+    background: rgba(244,241,251,0.9);
+    padding-top: 80px;
+    height: 700px;
+} 
+.sliderTagline{
+    font-weight: bold;
+    font-family: Satisfy;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    text-align: center;
+}
+.sliderTitle{
+    color: rgb(0, 20, 69);
+    font-style: normal;
+    font-weight: 700;
+    font-family: Arvo;
+    font-size: 66px;
+    line-height: 62px;
+    text-align: center;
+    margin-top: 15px;
+}
+.sliderTagline2{
+    line-height: 29px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Muli;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.sliderButton{
+    /* margin-top: 60px;
+    margin-bottom: 40px;
+    position: relative;
+     */
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
+    margin-left: 0px !important;
+    position: relative;
+    display: -webkit-inline-box;
+}
+.sliderButton::after{
+    position: absolute;
+    content: "";
+    background: url(../images/right.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 42px;
+    right: 0;
+    top: -45px;
+} 
+.googleWrapper{
+    background: rgba(230,248,246,1);
+    padding: 40px 70px;
+    border-radius: 10px;
+    z-index: 14;
+    margin-top: -115px;
+    display: block;
+    /* position: absolute; */
+    /* width: 1120px;
+    height: 254px; */
+}
+.googleLeft p{
+    font-weight: 400;
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+.reviewName{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.readMorebtn a{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 0, 0); 
+}
+.googleImg{
+    position: relative;
+    text-align: center;
+}
+.aboutSection{
+    padding: 45px 25px;
+    background-color: #fff;
+}
+.aboutImg{
+    background-color: #fff;
+}
+.aboutTitle{
+    line-height: 35px;
+    color: rgb(0, 20, 69);
+    font-style: normal;
+    font-weight: 800;
+    font-family: Muli;
+    font-size: 33px;
+}
+.aboutSubtitle{
+    line-height: 26px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Muli; 
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.aboutDesc p{
+    font-family: Muli;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.dentalSection{
+    background: rgba(230,248,246,1);
+    position: relative;
+    padding: 40px 0px;
+}
+.triengleWrap{
+    width: 90px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -40px;
+}
+.triengleWrap::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 0;
+	height: 0; 
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 50px solid #fff;
+}
+.dentalTitle{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    font-family: Muli;
+    color: rgb(0, 20, 69);
+    margin-bottom: 40px;
+}
+.dentalInner{
+    background: #fff;
+    padding: 40px 0px;
+    position: relative;
+    min-height: 690px;
+}
+.innerTitle{
+    line-height: 26px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.innerDesc{ 
+    font-weight: 400;
+    /* font-family: Muli; */
+    font-family: Arial;
+    font-style: normal; 
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    text-align: justify;
+} 
+.benifitTitle{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Muli;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.benifitSection img{
+    width: 853px;
+    height: 530px;
+}
+.consultationSection{
+    background-image: url(../images/consulting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 50px;
+}
+.consultingOverly{
+    background: rgba(0,0,0,0.6);
+    padding: 50px 0px;
+}
+.consultationTitle{
+    font-style: normal;
+    font-weight: bold;
+    font-family: Muli;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.consultationSubtitle{
+    font-style: normal;
+    font-weight: 600;
+    font-family: Muli;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.consultationTitledesc{
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Muli;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.consultCategory{
+    background-color: #fff;
+    min-height: 500px;
+}
+.consultcatHeader{
+    background: rgba(0,20,69,1);
+    padding: 30px 30px 75px 30px;
+    text-align: center;
+}
+.consultcatheaderTitle{
+    font-weight: bold;
+    font-family: Muli;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(4, 153, 206);
+}
+.consultcatbody{}
+.consultcatIcon{
+    background: rgba(243,242,242,1);
+    border-radius: 50%;
+    width: 35%;
+    height: 35%;
+    padding: 8%; 
+    margin: 0 auto;
+    margin-top: -60px;
+}
+.consucatTitle{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(247, 148, 32);
+    text-align: center;
+    margin-top: 20px;
+}
+.consucatDesc{
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Muli;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding: 20px 30px 30px 30px;
+    text-align: justify;
+}
+.he1{
+    padding-bottom: 110px;
+}
+.he2{
+    padding-bottom: 74px;
+}
+.he3{
+    padding-bottom: 110px;
+} 
+.ie2{
+    padding: 7% 10% !important
+}
+.dentistTitle{
+    color: rgb(0, 20, 69);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Muli;
+}
+.dentistDesc{
+    max-width: 555px;
+}
+.dentistDesc p{
+    font-weight: 400;
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.offerSection{ 
+    background: rgba(230,248,246,1); 
+    position: relative;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+.offerTitle{
+    line-height: 50px;
+    text-align: center;
+    color: rgb(0, 20, 69);
+    font-family: Muli;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 46px;
+    padding-top: 50px;
+}
+.offerLeftsec{
+    /* padding-left: 55px; */
+}
+.offerLeftsec ul{
+    padding-inline-start: 0px;
+}
+.offerLeftsec ul li{
+    list-style: none;
+    position: relative;
+    margin-bottom: 15px;
+}
+.offerLeftsec ul li span{
+    position: absolute;
+    top: 10px;
+}
+.OfferItems{
+    margin-left: 45px;
+    max-width: 450px;
+}
+.offerInnertitle{
+    line-height: 35px;
+    font-family: Muli;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+.offerDesc{
+    line-height: 20px;
+    font-family: Muli;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 7px;
+}
+.testimonialSection{ 
+    background: rgba(34,34,34,1); 
+    position: relative;
+    padding: 50px 0px 0px 0px;
+}
+.testimonialTitle{
+    text-align: center;
+    line-height: 58px;
+    font-family: Muli;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+.testimonialSubtitle h2{
+    text-align: center;
+    line-height: 26px;
+    font-size: 20px;
+    font-family: Muli;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+.testimonialWrap{
+    background-color: #fff;
+    padding: 15px 55px 35px 55px;
+    border-radius: 10px;
+}
+.testimonialWrap ul{
+    padding-inline-start: 0px;
+}
+.testimonialWrap ul li{
+    list-style: none;
+    margin-top: 30px;
+}
+.testimonailaDesc{
+    text-align: center;
+    line-height: 26px;
+    font-size: 20px;
+    font-family: Muli;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(96, 125, 139);
+}
+.testimonialName{
+    text-align: center;
+    line-height: 26px;
+    font-family: Muli;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: rgb(72, 74, 74);
+}
+.backTo-top{  
+    border-style: none;
+    border-radius: 100px; 
+    /* height: 55px;
+    width: 280px;   */
+    padding: 10px 60px;
+    text-decoration: none;
+    background: rgba(39,67,120,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff; 
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: Muli;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.backTo-top:hover{
+    background: rgba(30,55,114,1);
+    color: #fff; 
+}
+.contactSection{ 
+    background: rgba(230,248,246,1); 
+    position: relative;
+    margin-top: -7px;
+}
+.contactWrapper{
+    display: flex;
+    flex: 100%;
+    flex-direction:row;
+}
+.contastSec-1{
+    flex: 33%;
+    padding: 35px 0px 75px 0px;
+    border-right: 1px solid #cfcfcf;
+} 
+.contactAddress{
+    font-size: 18px;
+    font-family: Muli;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    max-width: 225px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.contastSec-2{
+    flex: 33%;
+    padding: 35px 0px 75px 0px;
+    border-right: 1px solid #cfcfcf;
+} 
+.bookApoinment{
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.bookApoinment a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Muli;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.contastSec-3{
+    flex: 33%;
+    padding: 35px 0px 75px 0px;
+} 
+.callusToday{
+    margin-top: 30px;
+}
+.callusToday a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Muli;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.footerWrapper{ 
+    background: rgba(255,255,255,1); 
+    position: relative;
+    padding: 15px 0px 20px 0px;
+}
+.copyRight{
+    text-align: center;
+    line-height: 26px;
+    font-size: 20px;
+    font-family: Muli;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(72, 74, 74);
+}
+.copyRight a{
+    text-decoration: none;
+}
+.modal-body .btn-close {
+    background: url(../images/lightbox-close@3x.png) center / 30px 30px transparent no-repeat;
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+    height: 40px;
+    position: absolute;
+    right: -19px;
+    top: -19px;
+    width: 40px;
+    opacity: 1;
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+}
+.modalBody{
+    background-color: #f5f5f5; 
+    padding-bottom: 40px;          
+}
+.modalToplogo{
+    text-align: center;
+}
+.modalToplogo img{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modalContent{
+    background: #fff;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+/* width */
+.modalContent::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .modalContent::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .modalContent::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .modalContent::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.modalToptitle{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9e7e7;
+}
+.patientInt{
+    font-weight: bold;
+}
+.patientInt span{
+    color: red;
+}
+.input-group-append {
+    cursor: pointer;
+  }
+/* .casllUs{
+    position: absolute !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.callusModal{
+    background: rgba(230,248,246,1);
+}
+.callusModal .btn-close{
+    background: url(../images/lightbox-close@3x.png) center / 30px 30px transparent no-repeat;
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+    height: 40px;
+    position: absolute;
+    right: 15px; 
+    top: 22px;
+    width: 40px;
+    opacity: 1;
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+} */
+.formSection{
+    background: rgba(230,248,246,1);
+    padding: 70px 15px;
+}
+.formWrapper{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 43%;
+    margin: 0 auto;
+    padding: 35px;
+}
+.buttonWrap{
+    position: relative;
+    text-align: right;
+}
+.formTitle{
+    text-align: center;
+    border-bottom: 1px solid #efe4e4;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.formTitle h1{
+    font-family: Muli;  
+    font-style: normal;
+    font-weight: bold;
+}
+.submitBtn{
+    margin: 0 auto;
+    border: none; 
+    display: block;
+    border-style: none;
+    border-radius: 100px;
+    z-index: 8; 
+    background: rgba(224,153,0,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #ffffff; 
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: Muli;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 15px 100px;
+}
+.submitBtn:hover{
+    background: rgba(213,136,0,1); 
+    color: #ffffff;
+}
+.readMorebtn{
+    font-family: Muli;
+    font-style: normal;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #1c22ef;
+    font-weight: 500;
+}
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+.onlyForXS{
+    display: none;
+}
+.footerButtonWrapper{
+    background: rgba(209,252,251,1);
+    background: rgba(209,252,251,1);
+    padding: 20px; 
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+.footerBtn{
+    border: none;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* CSS for Mobile responsive */
+@media(max-width: 767px){
+    .topAdress,
+    .topbtnWrapper{
+        display: none;
+    }
+    .mainSlider{
+        /* height: auto !important; */
+    }
+    .slideOverlay{
+        /* height: auto !important; */
+        padding-top: 25px;
+    }
+    .sliderTagline{
+        font-size: 25px;
+    }
+    .googleWrapper{
+        margin-top: -115px !important;
+        padding: 25px !important;
+        border-bottom: 5px solid #274378;
+        border-radius: 0px 0px 20px 20px
+    }
+    .slideBtn{
+        width: 280px !important;
+        font-size: 19px !important;
+        margin: 0 auto !important;
+        margin-top: 20px !important;
+    }
+    .slideBtnCall{
+        width: 140px !important;
+        font-size: 19px !important;
+        margin: 0 auto !important;
+        margin-top: 20px !important;
+    }
+    .slideBtnBooking{
+        width: 260px !important;
+        left: 10px !important;
+        top:5px !important;
+        display: inline-block;
+        position: relative;
+        border: 2px solid;
+        border-style: solid;
+        box-shadow: 2px 2px #888888;
+    }
+    .imgCall
+    {
+        height: 60px !important;
+        border: 3px solid white;
+        border-radius: 100%;
+        box-shadow: 2px 2px #888888;
+    }
+    .benifitSection img{
+        width: auto !important;
+        height: auto !important;
+    }
+    .contactWrapper{
+        flex-direction: column;
+    }
+    .contastSec-1{
+        flex: 100% !important;
+        border-right: none !important;
+        border-bottom: 1px solid #cfcfcf !important;
+
+    }
+    .contastSec-2{
+        flex: 100% !important;
+        border-right: none !important;
+        border-bottom: 1px solid #cfcfcf !important;
+    }
+    .contastSec-3{
+        flex: 100% !important;
+        border-right: none !important;
+        border-bottom: 1px solid #cfcfcf !important;
+    }
+    .m-xs{
+        margin-top: 15px !important;
+    }
+    .mt-xs{
+        margin-top: 3rem!important;
+    }
+    .xs-hidden{
+        display: none;
+    }
+    .reverse-column{
+        flex-direction: column-reverse;
+    }
+    .offerLeftsec,
+    .dentistImg,
+    .dentistDesc{
+        margin-top: 25px !important;
+    }
+    .sliderTitle{
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+    .sliderTagline2{
+        margin-top: 9px !important;
+        font-size: 20px !important; 
+        line-height: 24px !important;
+    }
+    .sliderButton::after{
+        display: none !important;
+    }
+    .sliderButton {
+        margin-top: 25px !important;
+        margin-bottom: 15px !important;
+        left: 19px !important
+    }
+    .formWrapper{
+        width: 100%;
+    }
+    .apModal{
+        margin-top: 10% !important;
+    }
+    .modal-body .btn-close{
+        top: 18px !important;
+        right: 8px !important;
+    }
+    .reverse-row{
+        flex-direction: column-reverse !important;
+    }
+    .googleLeft{
+        margin-top: 25px !important;
+    }
+    .googleImg{
+        text-align: left !important;
+        width: 120px;
+        margin-top: 15px;
+    }
+    .onlyForXS{
+        display: block !important;
+    }
+    .onlyForLG{
+        display: none !important;
+    }
+    .bookApoinment{
+        max-width: unset !important;
+    }
+    .topAboutBack{
+        background: rgba(244,241,251,0.9);
+        padding: 0px 20px;
+    }
+    .googleInner{
+        padding: 0px 15px;
+        background-color: #fff;
+    }
+    .googleLeft p{
+        font-size: 17px;
+    }
+    .footerWrapper{
+        margin-bottom: 75px;
+    }
+    .consultCategory{
+        margin: 0px 15px;
+    }
+}
+/* CSS for Tablet responsive */
+@media(min-width: 768px) and (max-width: 834px){
+    .myOffset{
+        margin-left: 0px !important;
+    }
+    .dentistDesc{
+        max-width: 100% !important;
+    }
+    .benifitSection img{
+        width: auto !important;
+        height: auto !important;
+    }
+    
+}
+@media(min-width: 768px){
+   .imgCall{
+    height: 60px !important;
+    right: 10px !important;
+    display: inline-block;
+    position: relative;
+    border: 3px solid white;
+    border-radius: 100%;
+    box-shadow: 2px 2px #888888;
+   }
+   .slideBtnBooking {
+    border: 2px solid;
+    border-style: solid;
+    box-shadow: 2px 2px #888888;
+}
+
+.sliderButton{
+    margin-top: 60px !important;    
+    margin-left: 80px!important;
+}
+
+}
+@media(max-width: 600px){
+    .googleWrapper
+    {
+        /* width: 300px;
+        height: 347px;
+        left: 10px;
+        top: 618px; */
+    }
+}
