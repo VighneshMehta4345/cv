@@ -1017,12 +1017,20 @@ body{
 }
 
 }
-@media(max-width: 600px){
+@media(max-width: 350px){
     .googleWrapper
     {
         /* width: 300px;
         height: 347px;
         left: 10px;
         top: 618px; */
+    }
+    .slideBtnBooking {
+        width: 260px !important;
+    }
+    .sliderButton {
+        margin-top: 25px !important;
+        margin-bottom: 15px !important;
+        left: 0px !important;
     }
 }
